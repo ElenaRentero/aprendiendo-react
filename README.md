@@ -6,7 +6,7 @@ Curso para aprender React basado en proyectos impartido por [midudev](https://gi
 - 03: [Mouse Follower](projects/03-mouse-follower/)
 
 ## ⌨ Despliegues 
-Estos se han desplegado utilizando la plataforma [Netlify Drop](https://app.netlify.com/drop).U
+Estos se han desplegado utilizando la plataforma [Netlify Drop](https://app.netlify.com/drop).
 - 01: [Twitter Follow Card](https://elena-rentero-twitter-follow-card.netlify.app/)
 - 02: [Tic Tac Toe](https://elena-rentero-tictactoe.netlify.app/)
 - 03: [Mouse Follower](https://elena-rentero-mouse-follower.netlify.app/)
