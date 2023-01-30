@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import confetti from 'canvas-confetti' 
+import confetti from 'canvas-confetti'
 
 import { Square } from './components/Square.jsx'
 import { TURNS } from './constants.js'
@@ -7,9 +7,9 @@ import { checkWinnerFrom, checkEndGame } from './logic/board.js'
 import { WinnerModal } from './components/WinnerModal.jsx'
 import { saveGameToStorage, resetGameStorage } from './logic/storage/index.js'
 
-function App() {
+function App () {
   const [board, setBoard] = useState(() => {
-    const boardFromStorage =window.localStorage.getItem('board')
+    const boardFromStorage = window.localStorage.getItem('board')
     return boardFromStorage ? JSON.parse(boardFromStorage) : Array(9).fill(null)
   })
   const [turn, setTurn] = useState(() => {
@@ -54,8 +54,7 @@ function App() {
       <button onClick={resetGame}>Reset del juego</button>
       <section className='game'>{board.map((square, index) => {
         return (<Square key={index} index={index} updateBoard={updateBoard}> {square} </Square>)
-      }) 
-      }
+      })}
       </section>
 
       <section className='turn'>
